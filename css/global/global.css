@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family:'Nunito', sans-serif;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+
+  :root{
+    --cor-0: #ffffff;
+    --cor-1: #f7f7f7;
+    --cor-2: #ededed;
+    --cor-3: #dedede;
+    --cor-4: #cccccc;
+    --cor-5: #b2b2b2;
+    --cor-6: #9c9c9c;
+    --cor-7: #717171;
+    --cor-8: #a4a4a4;
+    --cor-9: #66d9eb;
+    --cor-10:#222222;
+    --cor-11:#ae81ff;
+    --cor-12:#f9265e;
+    --cor-13:#2c70ff;
+    --cor-14:#122ab2;
+
+
+  }
