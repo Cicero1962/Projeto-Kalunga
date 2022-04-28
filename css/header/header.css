@@ -1,21 +1,22 @@
-.header-container {
+.header {
   display: flex;
   background-color: var(--cor-10);
+  gap: 95px;
+}
+.header-container {
+  display: flex;
   color: white;
-  padding: 20px;
+  padding: 10px 10px 10px 80px;
   gap: 95px;
 }
 .header-container a {
   color: white;
 }
-.logo {
-  padding-left: 80px;
-}
 .botao > img {
   width: 24px;
 }
 .form-container {
-    position: relative;
+  position: relative;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -51,40 +52,66 @@
   background-color: #ff8400 !important;
   cursor: pointer;
 }
-.botao img{
-    display: block;
-    position: absolute;
-    top: 8px;
-    right: 10px;
+.botao img {
+  display: block;
+  position: absolute;
+  top: 8px;
+  right: 10px;
 }
 .menu {
-  width: 110px;
+  display: flex;
+  gap: 95px;
 }
-.menu span {
+.menu1{
+    display: none;
+}
+.sp2 {
+  display: flex;
   color: var(--cor-0);
   font-size: 0.875rem;
   text-transform: uppercase;
   font-weight: bold;
+  align-items: center;
 }
-.menu p {
-  font-size: 0.69rem;
+.sp1 {
   color: var(--cor-0);
+  font-size: 0.695rem;
 }
-.img-compras {
-  position: relative;
+.compras {
+  display: flex;
+
+  border-left: 0.1px solid var(--cor-4);
 }
-.img-compras img {
+.compras img {
   width: 36px;
   height: 32px;
-  left: 30px;
 }
-.img-compras p {
-  position: absolute;
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 14px;
-  font-weight: bold;
-  width: 120px;
-  left: -30px;
+.compras a {
+  color: var(--cor-0);
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+.logo {
   margin-top: 10px;
+}
+
+.mn1 {
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+}
+.mn1 input {
+  flex: 1;
+  cursor: pointer;
+  padding: 4px 10px;
+  border-radius: 6px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #3c72b4;
+  font-weight: bold;
+  border-color: #3c72b4;
+}
+.login::placeholder {
+  color: var(--cor-0);
 }

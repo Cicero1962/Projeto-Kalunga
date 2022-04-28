@@ -13,36 +13,39 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="header-container">
-            <img class="logo" src="./img/logo-kalunga-branco.svg" alt="">
-            <div>
-                <form class="form-container" action="">
-                    <input type="text" name="busca" placeholder="Digite aqui sua busca">
-                    <button class="botao" type="submit"><img src="./img/procurar3.svg" alt=""></button>
-                </form>
-                <nav class="menu-form">
-                    <ul>
-                        <li><a href="">Nossas Lojas</a></li>
-                        <li><a href="">2º via Boleto Faturado</a></li>
-                        <li><a href="">Histórico de Compras</a></li>
-                        <li><a href="">Atendimento</a></li>
-                    </ul>
-                </nav>
-            </div>
-                <ul class="menu">
-                    <li><a href=""><p>Olá, Usuário <span>minha conta</span></p></a></li>
-                </ul>
+    <header class="header">
+            <div class="header-container">
+                <div class="logo"><a href=""><img  src="./img/logo-kalunga-branco.svg" alt=""></a></div>
+                <div>
+                    <form class="form-container" action="">
+                        <input type="text" name="busca" placeholder="Digite aqui sua busca">
+                        <button class="botao" type="submit"><img src="./img/procurar3.svg" alt=""></button>
+                    </form>
+                    <nav class="menu-form">
+                        <ul>
+                            <li><a href="">Nossas Lojas</a></li>
+                            <li><a href="">2º via Boleto Faturado</a></li>
+                            <li><a href="">Histórico de Compras</a></li>
+                            <li><a href="">Atendimento</a></li>
+                        </ul>
+                    </nav>
+                </div>
                     <ul class="menu">
-                        <li><a href=""><p>Busca de <span>cartuchos</span></p></a></li>
+                        <li><a href=""><span class="sp1">Olá,Usuário</span> <br><span class="sp2">minha conta <span class="menu-seta"><img src="./img/expand_more_white_24dp.svg" alt=""></span></span></a>
+                            <div class="menu1">
+                                <form class="mn1" action="">
+                                    <input class="login" type="text" placeholder="Fazer Login">
+                                </form>
+                                <p>Novo Site?<span><a href="">Cadastre-se aqui</a></span></p>
+                            </div>
+                        </li>
+                        <li><a href=""><span class="sp1">Busca de</span> <br> <span class="sp2">cartuchos</span></a></li>
+                        <li><a href=""><span class="sp1">Minhas</span> <br> <span class="sp2">Assinaturas</a></li>
                     </ul>
-                    <ul class="menu">
-                        <li><a href=""><p>Minhas <span>Assinaturas</span></p></a></li>
-                    </ul>
-            <div class="img-compras">
-                <a href=""><img src="./img/formato-preto-do-carrinho-de-compras (1).png" alt=""><p>meu carrinho</p></a>
-
             </div>
-        </div>
+            <div class="compras">
+                <a href=""><img src="./img/formato-preto-do-carrinho-de-compras (1).png" title="Meu Carrinho"  alt="" ><span>Meu Carrinho</span></a>
+            </div>
     </header>
 </body>
 </html>
