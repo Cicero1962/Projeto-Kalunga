@@ -1,2 +1,7 @@
 @import"./global/global.css";
+
 @import"./header/header.css";
+
+@import"./Categorias/categorias.css";
+
+@import"./galeria/galeria.css";

@@ -1,17 +1,17 @@
 .header {
   display: flex;
+  flex-wrap: wrap;
   background-color: var(--cor-10);
-  gap: 95px;
+  justify-content: space-between;
 }
 .header-container {
   display: flex;
+  flex-wrap: wrap;
   color: white;
   padding: 10px 10px 10px 80px;
   gap: 95px;
 }
-.header-container a {
-  color: white;
-}
+
 .botao > img {
   width: 24px;
 }
@@ -24,6 +24,7 @@
 }
 .menu-form ul {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
 }
 .menu-form li + li {
@@ -60,13 +61,15 @@
 }
 .menu {
   display: flex;
+  flex-wrap: wrap;
   gap: 95px;
 }
-.menu1{
-    display: none;
+.menu1 {
+  display: none;
 }
 .sp2 {
   display: flex;
+  flex-wrap: wrap;
   color: var(--cor-0);
   font-size: 0.875rem;
   text-transform: uppercase;
@@ -79,24 +82,27 @@
 }
 .compras {
   display: flex;
-
-  border-left: 0.1px solid var(--cor-4);
-}
-.compras img {
-  width: 36px;
-  height: 32px;
-}
-.compras a {
+  flex-wrap: wrap;
   color: var(--cor-0);
   flex-direction: column;
   align-items: center;
   justify-items: center;
+  font-weight: bold;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  border-left: 0.1px solid var(--cor-4);
+  padding: 16px 0 0 40px;
+}
+.compras img {
+  width: 32px;
+  height: 36px;
 }
 .logo {
   margin-top: 10px;
 }
 
 .mn1 {
+  display: flex;
   width: 300px;
   display: flex;
   flex-direction: row;
@@ -112,6 +118,107 @@
   font-weight: bold;
   border-color: #3c72b4;
 }
-.login::placeholder {
-  color: var(--cor-0);
+
+.sub-menu {
+  display: flex;
+  flex-wrap: wrap;
+}
+.menu-geral {
+  padding: 15px;
+  display:none ;
+  flex-direction: column;
+  position: absolute;
+  width: 360px;
+  background-color: var(--cor-0);
+  border-radius: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 1px solid rgba(0, 0, 0, 0.062);
+
+}
+
+.menu-bloc {
+  position: relative;
+}
+
+.menu-bloc:hover .menu-geral {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu-seta{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.sub-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0px 25px;
+  margin: 0 auto;
+  align-items: flex-start;
+  justify-content: center;
+  
+}
+
+.menu-h2 {
+  color: var(--cor-10);
+  font-weight: bold;
+  font-size: 1.125rem;
+  margin-bottom: 10px;
+  
+}
+
+.menu-item {
+  display: inline-block;
+  font-size: 0.85rem;
+  color: var(--cor-10);
+  margin-bottom: 4px;
+  
+}
+.botao-login{
+   width: 280px;
+   height: 40px;
+   background-color: #396BA7;
+   font-size: 1rem;
+   font-weight: bold;
+   color: var(--cor-0);
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   margin-left: 25px;
+   margin-bottom: 8px;
+
+   
+}
+.cadastro{
+  text-align: center;
+  color: var(--cor-10);
+  margin-bottom: 20px;
+}
+.cadastro a{
+  color: #396BA7;
+}
+.cadastro a:hover{
+  display: inline-block;
+  text-decoration: underline;
+  color: #396BA7;
+}
+.menu-link a:hover{
+  text-decoration: underline;
+  transition: 0.3s; 
+}
+@media(max-width:1850px){
+  .header-container{
+    gap: 60px;
+  }
+}
+@media(max-width:1650px){
+  .header-container{
+    gap: 30px;
+  }
+  .form-container input{
+    width: 500px;
+  }
 }
