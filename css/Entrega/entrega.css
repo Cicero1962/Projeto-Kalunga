@@ -1,0 +1,43 @@
+.entrega {
+  display: flex;
+  background-color: #f8f9fa;
+  width: 100vw;
+  border-bottom: 1px solid #2222222f;
+}
+.entrega-container {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  gap: 0px 80px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.ent-link a {
+  display: flex;
+  gap: 0px 20px;
+  width: 30ch;
+}
+.ent-link {
+  flex: 1;
+}
+
+.ent-link {
+  filter: grayscale(100%);
+  transition: 0.2s;
+}
+.ent-link:hover {
+  filter: none;
+}
+.spa1 {
+  font-size: 1rem;
+  color: var(--cor-10);
+  font-weight: bold;
+}
+
+.spa2 {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #2d2d2f;
+  font-weight: 300;
+}

@@ -44,6 +44,7 @@
   padding-right: 20px;
   width: 99vw;
   background-color: var(--cor-0);
+  padding-bottom: 20px;
 }
 .conteudo-link {
   display: flex;
