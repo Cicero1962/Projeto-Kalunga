@@ -1,0 +1,147 @@
+.produtos {
+    display: block;
+    color: black;
+    width: 275px;
+    height: 430px;
+    padding: 20px 10px;
+    
+    
+}
+
+.produtos-promo {
+    display: flex;
+    width: 95vw;
+    margin: 0 auto;
+    align-self: center;
+    justify-content: space-between;
+    
+}
+
+.conteudo-botao {
+    padding-left: 40px;
+}
+
+.conteudo-central {
+    text-align: justify;
+    align-items: center;
+}
+
+.produtos-compras {
+    display: none;
+}
+.produtos:hover{
+    border: 1px solid #00000018;
+}
+
+.produtos:hover .produtos-compras{
+    display: block;
+    
+}
+.produtos-compras{
+    width: 100%;
+    padding: 8px 0;
+    border-radius: 4px;
+    outline: 0;
+    border: none;
+    background-color: #396BA7;
+    color: var(--cor-0);
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.botao-produtos{
+    background-color: #000000;
+    border: none;
+    color: var(--cor-0);
+    text-transform: uppercase;
+    font-size: .69rem;
+    font-weight: 900;
+    padding: 2px;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.botao-color{
+    color: #FFC103;
+}
+.produto-info a{
+    display:inline-block;
+    font-size: .875rem;
+    color: #373a3c;
+    list-style: 0;
+    margin-bottom: 12px;
+}
+.preco-antigo a{
+    font-size: .69rem;
+    text-decoration: line-through;
+    color: #373a3c;
+}
+.preco-atual{
+    font-size: 1.38rem;
+    font-weight: bold;
+    color: #396BA7;
+}
+.pr-atual{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.produto-prazo{
+    font-size: .75rem;
+    font-weight: bolder;
+}
+.produto-total{
+   font-size: .75rem;
+    font-weight: 500; 
+}
+
+.frete{
+    text-transform: uppercase;
+    padding: 6px 4px;
+}
+.pr6{
+    background-color: #CC2C47;
+    border: none;
+    color: var(--cor-0);
+    text-transform: none;
+    font-size: .69rem;
+    font-weight: 900;
+    padding: 2px;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+
+
+
+.pr5{
+    background-color: #3D128A;
+    border: none;
+    color: var(--cor-0);
+    text-transform: none;
+    font-size: .69rem;
+    font-weight: 900;
+    padding: 2px;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+.bt6{
+    color: var(--cor-0);
+    
+}
+
+.bt4{
+    opacity: 0;
+}
+.web{
+    margin-bottom: 20px;
+}
+
+.produtos-container h1{
+    padding: 20px;
+    font-size: 1.38rem;
+    font-weight: 900;
+}

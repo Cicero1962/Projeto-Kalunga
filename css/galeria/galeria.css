@@ -13,7 +13,7 @@
 }
 .galeria-01{
     flex: none;
-    width: 990px;
+    width: 100vw;
     height: 300px;
     object-fit: cover;
     scroll-snap-align: start;
@@ -21,29 +21,22 @@
 }
 .gl1{
     background-color: #000000;
-    width: 100vw;
 }
 .gl2{
     background-color: #003399;
-    width: 100vw;
 }
 .gl3{
     background-color: #0B4671;
-    width: 100vw;
 }
 .gl4{
     background-color: #CCD4D9;
-    width: 100vw;
 }
 .gl5{
     background-color: #E8E8E8;
-    width: 100vw;
 }
 .gl6{
     background-color: #00A2E2;
-    width: 100vw;
 }
 .gl7{
     background: linear-gradient(to bottom,#db0a31 0%,#8d028d 100%);
-    width: 100vw;
 }

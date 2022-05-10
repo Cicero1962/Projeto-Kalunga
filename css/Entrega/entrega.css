@@ -1,11 +1,13 @@
 .entrega {
   display: flex;
+  flex-wrap: wrap;
   background-color: #f8f9fa;
   width: 100vw;
   border-bottom: 1px solid #2222222f;
 }
 .entrega-container {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   margin: 0 auto;
   gap: 0px 80px;

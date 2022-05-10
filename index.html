@@ -1,376 +1,622 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projeto Kalunga</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap"
-        rel="stylesheet" />
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<body>
-    <header class="header">
-        <div class="header-container">
-            <div class="logo">
-                <a href=""><img src="./img/logo-kalunga-branco.svg" alt=""></a>
-            </div>
-            <div>
-                <form class="form-container" action="">
-                    <input type="text" name="busca" placeholder="Digite aqui sua busca">
-                    <button class="botao" type="submit"><img src="./img/procurar3.svg" alt=""></button>
-                </form>
-                <nav class="menu-form">
-                    <ul>
-                        <li><a href="">Nossas Lojas</a></li>
-                        <li><a href="">2º via Boleto Faturado</a></li>
-                        <li><a href="">Histórico de Compras</a></li>
-                        <li><a href="">Atendimento</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <li class="menu-bloc">
-                <a href="">
-                    <span class="sp1">Olá,Usuário</span> <br>
-                    <span class="sp2">
-                        minha conta
-                        <span class="menu-seta">
-                            <img src="./img/expand_more_white_24dp.svg" alt="">
-                        </span>
-                    </span>
-                </a>
-                <div class="menu-geral">
-                    <button class="botao-login">Fazer Login</button>
-                    <p class="cadastro">Novo Site? <a href="">Cadastre-se aqui</a></p>
-                    <div class="sub-menu">
-                        <div>
-                            <h2 class="menu-h2">Serviços</h2>
-                            <ul class="menu-servico">
-                                <li class="menu-link">
-                                    <a href="" class="menu-item">Busca de Cartuchos</a>
-                                </li>
-                                <li class="menu-link">
-                                    <a href="" class="menu-item">Minhas Impressoras</a>
-                                </li>
-                                <li class="menu-link">
-                                    <a href="" class="menu-item">Consultar produtos em loja<a>
-                                </li>
-                                <li class="menu-link">
-                                    <a href="" class="menu-item">Troca Online</a>
-                                </li>
-                                <li class="menu-link">
-                                    <a href="" class="menu-item">Garantia estendida </a>
-                                </li>
-                                <li class="menu-link">
-                                    <a href="" class="menu-item">Coatção Online</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div>
-                            <h2 class="menu-h2">Minha Conta</h2>
-                            <ul class="menu-conta">
-                                <li class="menu-link">
-                                    <a href="" class="menu-item">Minha Conta</a>
-                                </li>
-                                <li class="menu-link">
-                                    <a href="" class="menu-item">Meu Cadastro</a>
-                                </li>
-                                <li class="menu-link">
-                                    <a href="" class="menu-item">Minhas Cotações</a>
-                                </li>
-                                <li class="menu-link">
-                                    <a href="" class="menu-item">Minhas Compras</a>
-                                </li>
-                                <li class="menu-link">
-                                    <a href="" class="menu-item">Meus Créditos</a>
-                                </li>
-                                <li class="menu-link">
-                                    <a href="" class="menu-item">Meus Downloads</a></li>
-                                <li class="menu-link">
-                                    <a href="" class="menu-item">Nota Fiscal Eletrônica</a>
-                                </li>
-                                <li class="menu-link">
-                                    <a href="" class="menu-item">Minha assinatura</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+  <body>
+    <header class="container-principal">
+      <section class="menu">
+        <a href="">
+          <img
+            class="logo-kalunga"
+            src="./img/logo-kalunga-branco.svg"
+            alt=""
+            width="140"
+            height="37"
+          />
+        </a>
+        <div>
+          <form class="form-busca" action="">
+            <input
+              type="text"
+              name="busca"
+              placeholder="Digite aqui sua busca"
+            />
+            <button class="botao" type="submit">
+              <img
+                class="lupa"
+                src="./img/procurar3.svg"
+                alt=""
+                width="20"
+                height="20"
+              />
+            </button>
+          </form>
+          <ul class="menu-input">
+            <li>
+              <a href="">Nossas Lojas</a>
             </li>
             <li>
-                <a href="">
-                    <span class="sp1">Busca de</span>
-                    <br>
-                    <span class="sp2">cartuchos</span>
-                </a>
+              <a href="">2º via Boleto Faturado </a>
             </li>
-            <li><a href=""><span class="sp1">Minhas</span> <br> <span class="sp2">Assinaturas</a></li>
-            </ul>
+            <li>
+              <a href="">Histórico de Compras </a>
+            </li>
+            <li>
+              <a href="">
+                Atendimento
+              </a>
+            </li>
+          </ul>
         </div>
-        <a class="compras" href=""><img src="./img/formato-preto-do-carrinho-de-compras (1).png" title="Meu Carrinho"
-                alt=""><span>Meu Carrinho</span></a>
+        <ul class="sub-menu">
+          <li>
+            <a href="">
+              <span class="sub1"
+                >Olá,Usuário
+                <br />
+                <span class="sub2">
+                  minha conta
+                  <span class="seta-menu">
+                    <img src="./img/expand_more_white_24dp.svg" alt="" />
+                  </span>
+                </span>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <span class="sub1"
+                >Busca de<br />
+                <span class="sub2">Cartuchos</span>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <span class="sub1"
+                >Minhas<br />
+                <span class="sub2">assinaturas</span>
+              </span>
+            </a>
+          </li>
+          <li class="carrinho">
+            <a href="">
+              <img
+                src="./img/formato-preto-do-carrinho-de-compras (1).png"
+                alt=""
+                width="36"
+                height="32"
+              />
+              <br />
+              meu carrinho
+            </a>
+          </li>
+        </ul>
+      </section>
     </header>
-    <section class="categorias-container">
-        <div class="cat-principal">
-            <a href="" class="categoria-img">
-                <span class="menu-seta"><img src="./img/expand_more_FILL0_wght400_GRAD0_opsz48.svg" alt=""></span>
-                Todas as <br>Categorias
+    <main class="container-geral">
+      <section>
+        <ul class="categorias-container">
+          <li class="menu-container">
+            <a class="cat-item categoria-img" href="">
+              <span class="menu-seta"
+                ><img
+                  src="./img/expand_more_FILL0_wght400_GRAD0_opsz48.svg"
+                  alt=""
+                  width="6"
+                  height="16"
+              /></span>
+
+              <span
+                >Todas as <br />
+                <span class="menu-interno">Categorias</span>
+              </span>
             </a>
             <div class="container-interno">
-                <h1 class="h1">Todas as Categorias</h1>
-                <div class="conteudo-link">
-                    <ul>
-                        <li class="lk">
-                            <a href="">Apresentação</a>
-                        </li>
-                        <li class="lk">
-                            <a href="">Artes</a>
-                        </li>
-                        <li class="lk">
-                            <a href="">Automação Comercial</a>
-                        </li>
-                        <li class="lk">
-                            <a href="">Canetas Luxo</a>
-                        </li>
-                        <li class="lk">
-                            <a href="">Cartucho</a>
-                        </li>
-                        <li class="lk">
-                            <a href="">Coffee</a>
-                        </li class="lk">
-                        <li class="lk">
-                            <a href="">Cuidados Pessoais</a>
-                        </li>
-                    </ul>
-                    <ul>
-                        <li class="lk">
-                            <a href="">Eletrônicos</a>
-                        </li>
-                        <li class="lk">
-                            <a href="">Eléltrica</a>
-                        </li>
-                        <li class="lk">
-                            <a href="">Embalagens</a>
-                        </li>
-                        <li class="lk">
-                            <a href="">Envelopes</a>
-                        </li>
-                        <li class="lk">
-                            <a href="">Escolar</a>
-                        </li>
-                        <li class="lk">
-                            <a href="">Escrita</a>
-                        </li>
-                        <li class="lk">
-                            <a href="">Escritório</a>
-                        </li>
-                    </ul>
-                    <ul>
-                        <li class="lk">
-                            <a href="">Gamers</a>
-                        </li>
-                        <li class="lk">
-                            <a href="">Impressoras</a>
-                        </li>
-                        <li class="lk">
-                            <a href="">Informática</a>
-                        </li>
-                        <li class="lk">
-                            <a href="">Limpeza</a>
-                        </li>
-                        <li class="lk">
-                            <a href="">Mídias</a>
-                        </li>
-                        <li class="lk">
-                            <a href="">Móveis</a>
-                        </li>
-                        <li class="lk">
-                            <a href="">Notebooks</a>
-                        </li>
-                    </ul>
-                    <ul>
-                        <li class="lk">
-                            <a href="">Organização</a>
-                        </li>
-                        <li class="lk">
-                            <a href="">Outlet</a>
-                        </li>
-                        <li class="lk">
-                            <a href="">Papéis</a>
-                        </li>
-                        <li class="lk">
-                            <a href="">Rede</a>
-                        </li>
-                        <li class="lk">
-                            <a href="">Smart Home</a>
-                        </li>
-                        <li class="lk">
-                            <a href="">Smartphones</a>
-                        </li>
-                        <li class="lk">
-                            <a href="">Softwares & Downloads</a>
-                        </li>
-                    </ul>
-                </div>
+              <h1 class="h1">Todas as Categorias</h1>
+              <div class="conteudo-link">
+                <ul>
+                  <li class="cat-link2">
+                    <a class="cat-item2" href="">Apresentação</a>
+                  </li>
+                  <li class="cat-link2">
+                    <a class="cat-item2" href="">Artes</a>
+                  </li>
+                  <li class="cat-link2">
+                    <a class="cat-item2" href="">Automação Comercial</a>
+                  </li>
+                  <li class="cat-link2">
+                    <a class="cat-item2" href="">Canetas Luxo</a>
+                  </li>
+                  <li class="cat-link2">
+                    <a class="cat-item2" href="">Cartucho</a>
+                  </li>
+                  <li class="cat-link2">
+                    <a class="cat-item2" href="">Coffee</a>
+                  </li>
+                  <li class="cat-link2">
+                    <a class="cat-item2" href="">Cuidados Pessoais</a>
+                  </li>
+                </ul>
+                <ul>
+                  <li class="cat-link2">
+                    <a class="cat-item2" href="">Eletrônicos</a>
+                  </li>
+                  <li class="cat-link2">
+                    <a class="cat-item2" href="">Eléltrica</a>
+                  </li>
+                  <li class="cat-link2">
+                    <a class="cat-item2" href="">Embalagens</a>
+                  </li>
+                  <li class="cat-link2">
+                    <a class="cat-item2" href="">Envelopes</a>
+                  </li>
+                  <li class="cat-link2">
+                    <a class="cat-item2" href="">Escolar</a>
+                  </li>
+                  <li class="cat-link2">
+                    <a class="cat-item2" href="">Escrita</a>
+                  </li>
+                  <li class="cat-link2">
+                    <a class="cat-item2" href="">Escritório</a>
+                  </li>
+                </ul>
+                <ul>
+                  <li class="cat-link2">
+                    <a class="cat-item2" href="">Gamers</a>
+                  </li>
+                  <li class="cat-link2">
+                    <a class="cat-item2" href="">Impressoras</a>
+                  </li>
+                  <li class="cat-link2">
+                    <a class="cat-item2" href="">Informática</a>
+                  </li>
+                  <li class="cat-link2">
+                    <a class="cat-item2" href="">Limpeza</a>
+                  </li>
+                  <li class="cat-link2">
+                    <a class="cat-item2" href="">Mídias</a>
+                  </li>
+                  <li class="cat-link2">
+                    <a class="cat-item2" href="">Móveis</a>
+                  </li>
+                  <li class="cat-link2">
+                    <a class="cat-item2" href="">Notebooks</a>
+                  </li>
+                </ul>
+                <ul>
+                  <li class="cat-link2">
+                    <a class="cat-item2" href="">Organização</a>
+                  </li>
+                  <li class="cat-link2">
+                    <a class="cat-item2" href="">Outlet</a>
+                  </li>
+                  <li class="cat-link2">
+                    <a class="cat-item2" href="">Papéis</a>
+                  </li>
+                  <li class="cat-link2">
+                    <a class="cat-item2" href="">Rede</a>
+                  </li>
+                  <li class="cat-link2">
+                    <a class="cat-item2" href="">Smart Home</a>
+                  </li>
+                  <li class="cat-link2">
+                    <a class="cat-item2" href="">Smartphones</a>
+                  </li>
+                  <li class="cat-link2">
+                    <a class="cat-item2" href="">Softwares & Downloads</a>
+                  </li>
+                </ul>
+              </div>
             </div>
-        </div>
-        <nav>
-            <ul class="categorias">
-
-                <li class="cat-link">
-                    <a href="" class="cat-item">Gamers</a>
-                </li>
-                <li class="cat-link">
-                    <a href="" class="cat-item">Informática</a>
-                </li>
-                <li class="cat-link">
-                    <a href="" class="cat-item">Cartuchos</a>
-                </li>
-                <li class="cat-link">
-                    <a href="" class="cat-item">Impressora</a>
-                </li>
-                <li class="cat-link">
-                    <a href="" class="cat-item">Notebooks</a>
-                </li>
-                <li class="cat-link">
-                    <a href="" class="cat-item">Redes</a>
-                </li>
-                <li class="cat-link">
-                    <a href="" class="cat-item">Smartphones</a>
-                </li>
-                <li class="cat-link">
-                    <a href="" class="cat-item">Apresentação</a>
-                </li>
-                <li class="cat-link">
-                    <a href="" class="cat-item">Mídias</a>
-                </li>
-                <li class="cat-link">
-                    <a href="" class="cat-item">Escolar</a>
-                </li>
-                <li class="cat-link">
-                    <a href="" class="cat-item">Escritório</a>
-                </li>
-                <li class="cat-link">
-                    <a href="" class="cat-item">Escrita</a>
-                </li>
-                <li class="cat-link">
-                    <a href="" class="cat-item">Papéis</a>
-                </li>
-                <li class="cat-link">
-                    <a href="" class="cat-item">Organização</a>
-                </li>
-                <li class="cat-link">
-                    <a href="" class="cat-item">Envelope</a>
-                </li>
-                <li class="cat-link">
-                    <a href="" class="cat-item">Móveis</a>
-                </li>
-                <li class="cat-link">
-                    <a href="" class="cat-item">Embalagens</a>
-                </li>
-                <li class="cat-link">
-                    <a href="" class="cat-item">Coffee</a>
-                </li>
-                <li class="cat-link">
-                    <a href="" class="cat-item">Limpeza</a>
-                </li>
-                <li class="cat-link">
-                    <a href="" class="cat-item">Elétrica</a>
-                </li>
-                <li class="cat-link">
-                    <a href="" class="cat-item">Eletrônicos</a>
-                </li>
-                <li class="cat-link">
-                    <a href="" class="cat-item">Smart Home</a>
-                </li>
-                <li class="cat-link">
-                    <a href="" class="cat-item">Artes</a>
-                </li>
-            </ul>
-        </nav>
-    </section>
-    <section id="galeria">
-        <div id="galeria-itens">
-            <div class="galeria-01 gl1">
-                <a href="">
-                    <img src="./img/slider_desk-07.webp" alt="">
-                </a>
-            </div>
-            <div class="galeria-01 gl2">
-                <a href="">
-                    <img src="./img/slider_desk-03.webp" alt="">
-                </a>
-            </div>
-            <div class="galeria-01 gl3">
-                <a href="">
-                    <img src="./img/slider_desk-05.webp" alt="">
-                </a>
-            </div>
-            <div class="galeria-01 gl4">
-                <a href="">
-                    <img src="./img/slider-02_desk.webp" alt="">
-                </a>
-            </div>
-            <div class="galeria-01 gl5">
-                <a href="">
-                    <img src="./img/slider-01_desk-6.webp" alt="">
-                </a>
-            </div>
-            <div class="galeria-01 gl6">
-                <a href="">
-                    <img src="./img/slider-01_deskv4.webp" alt="">
-                </a>
-            </div>
-            <div class="galeria-01 gl7">
-                <a href="">
-                    <img src="./img/slider_desk-01.webp" alt="">
-                </a>
-            </div>
-        </div>
-    </section>
-    <section class="entrega">
-        <ul class="entrega-container">
-            <li class="ent-link">
-                <a href=""><img src="./img/icon-frete.webp" alt="" width="64" height="48">
-                    <span class="spa1">FRETE GRÁTIS<br>
-                        <span class="spa2">Confira o Regulamento</span>
-                    </span>
-                </a>
-            </li>
-            <li class="ent-link">
-                <a href=""><img src="./img/icon-click-e-retire.webp" alt="" width="64" height="43">
-                    <span class="spa1">CLICK E RETIRE na Loja<br>
-                        <span class="spa2">em até 2 horas sem pagar frete*</span>
-                    </span>
-                </a>
-            </li>
-            <li class="ent-link">
-                <a href=""><img src="./img/icon-entrega-expressa.webp" alt="" width="64" height="48">
-                    <span class="spa1">Entrega SUPER EXPRESS<br>
-                        <span class="spa2">Receba seu pedido em até 2 horas*</span>
-                    </span>
-                </a>
-            </li>
-            <li class="ent-link">
-                <a href=""><img src="./img/icon-lojas.webp" alt="" width="64" height="43">
-                    <span class="spa1">Mais de 220 LOJAS<br>
-                        <span class="spa2">Tem sempre uma perto de você!</span>
-                    </span>
-                </a>
-            </li>
-            <li class="ent-link">
-                <a href=""><img src="./img/icon-app.webp" alt="" width="64" height="43">
-                    <span class="spa1">Baixe e APP KALUNGA<br>
-                        <span class="spa2">Disponível para Android e IOS</span>
-                    </span>
-                </a>
-            </li>
+          </li>
+          <li class="cat-link">
+            <a href="" class="cat-item">Gamers</a>
+          </li>
+          <li class="cat-link">
+            <a href="" class="cat-item">Informática</a>
+          </li>
+          <li class="cat-link">
+            <a href="" class="cat-item">Cartuchos</a>
+          </li>
+          <li class="cat-link">
+            <a href="" class="cat-item">Impressora</a>
+          </li>
+          <li class="cat-link">
+            <a href="" class="cat-item">Notebooks</a>
+          </li>
+          <li class="cat-link">
+            <a href="" class="cat-item">Redes</a>
+          </li>
+          <li class="cat-link">
+            <a href="" class="cat-item">Smartphones</a>
+          </li>
+          <li class="cat-link">
+            <a href="" class="cat-item">Apresentação</a>
+          </li>
+          <li class="cat-link">
+            <a href="" class="cat-item">Mídias</a>
+          </li>
+          <li class="cat-link">
+            <a href="" class="cat-item">Escolar</a>
+          </li>
+          <li class="cat-link">
+            <a href="" class="cat-item">Escritório</a>
+          </li>
+          <li class="cat-link">
+            <a href="" class="cat-item">Escrita</a>
+          </li>
+          <li class="cat-link">
+            <a href="" class="cat-item">Papéis</a>
+          </li>
+          <li class="cat-link">
+            <a href="" class="cat-item">Organização</a>
+          </li>
+          <li class="cat-link">
+            <a href="" class="cat-item">Envelope</a>
+          </li>
+          <li class="cat-link">
+            <a href="" class="cat-item">Móveis</a>
+          </li>
+          <li class="cat-link">
+            <a href="" class="cat-item">Embalagens</a>
+          </li>
+          <li class="cat-link none19">
+            <a href="" class="cat-item">Coffee</a>
+          </li>
+          <li class="cat-link none20">
+            <a href="" class="cat-item">Limpeza</a>
+          </li>
+          <li class="cat-link none21">
+            <a href="" class="cat-item">Elétrica</a>
+          </li>
+          <li class="cat-link none22">
+            <a href="" class="cat-item">Eletrônicos</a>
+          </li>
+          <li class="cat-link none23">
+            <a href="" class="cat-item">Smart Home</a>
+          </li>
+          <li class="cat-link none24">
+            <a href="" class="cat-item">Artes</a>
+          </li>
         </ul>
-    </section>
-</body>
-
+      </section>
+      <section id="galeria">
+        <div id="galeria-itens">
+          <div class="galeria-01 gl1">
+            <a href="">
+              <img src="./img/slider_desk-07.webp" alt="" />
+            </a>
+          </div>
+          <div class="galeria-01 gl2">
+            <a href="">
+              <img src="./img/slider_desk-03.webp" alt="" />
+            </a>
+          </div>
+          <div class="galeria-01 gl3">
+            <a href="">
+              <img src="./img/slider_desk-05.webp" alt="" />
+            </a>
+          </div>
+          <div class="galeria-01 gl4">
+            <a href="">
+              <img src="./img/slider-02_desk.webp" alt="" />
+            </a>
+          </div>
+          <div class="galeria-01 gl5">
+            <a href="">
+              <img src="./img/slider-01_desk-6.webp" alt="" />
+            </a>
+          </div>
+          <div class="galeria-01 gl6">
+            <a href="">
+              <img src="./img/slider-01_deskv4.webp" alt="" />
+            </a>
+          </div>
+          <div class="galeria-01 gl7">
+            <a href="">
+              <img src="./img/slider_desk-01.webp" alt="" />
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="entrega">
+        <ul class="entrega-container">
+          <li class="ent-link">
+            <a href=""
+              ><img src="./img/icon-frete.webp" alt="" width="64" height="48" />
+              <span class="spa1"
+                >FRETE GRÁTIS<br />
+                <span class="spa2">Confira o Regulamento</span>
+              </span>
+            </a>
+          </li>
+          <li class="ent-link">
+            <a href=""
+              ><img
+                src="./img/icon-click-e-retire.webp"
+                alt=""
+                width="64"
+                height="43"
+              />
+              <span class="spa1"
+                >CLICK E RETIRE na Loja<br />
+                <span class="spa2">em até 2 horas sem pagar frete*</span>
+              </span>
+            </a>
+          </li>
+          <li class="ent-link">
+            <a href=""
+              ><img
+                src="./img/icon-entrega-expressa.webp"
+                alt=""
+                width="64"
+                height="48"
+              />
+              <span class="spa1"
+                >Entrega SUPER EXPRESS<br />
+                <span class="spa2">Receba seu pedido em até 2 horas*</span>
+              </span>
+            </a>
+          </li>
+          <li class="ent-link">
+            <a href=""
+              ><img src="./img/icon-lojas.webp" alt="" width="64" height="43" />
+              <span class="spa1"
+                >Mais de 220 LOJAS<br />
+                <span class="spa2">Tem sempre uma perto de você!</span>
+              </span>
+            </a>
+          </li>
+          <li class="ent-link">
+            <a href=""
+              ><img src="./img/icon-app.webp" alt="" width="64" height="43" />
+              <span class="spa1"
+                >Baixe e APP KALUNGA<br />
+                <span class="spa2">Disponível para Android e IOS</span>
+              </span>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section class="produtos-container">
+        <h1>
+          Tecnologia é na Kalunga
+        </h1>
+        <div class="produtos-promo">
+          <div class="produtos">
+            <div class="conteudo-botao">
+              <div>
+                <a href="">
+                  <img
+                    src="./img/notebook.webp"
+                    alt=""
+                    width="150"
+                    height="150"
+                  />
+                </a>
+              </div>
+              <button class="botao-produtos">
+                <span class="botao-color">
+                  preço exclusivo
+                </span>
+                para site
+              </button>
+            </div>
+            <div class="conteudo-central">
+              <p class="produto-info">
+                <a href="">
+                  Notebook X515JA Asus, Processador Core i3, 4GB de Memória,
+                  256GB SSD de Armazena...
+                </a>
+              </p>
+              <span class="preco-antigo"><a href="">De R$ 3.793,90</a></span>
+              <p class="preco-atual">
+                R$ 3.375,48 <span class="pr-atual">à vista</span>
+              </p>
+              <span class="produto-prazo">10x de R$ 366,90</span>
+              <p class="produto-total">Total a prazo R$ 3.669,00</p>
+            </div>
+            <button class="produtos-compras">Comprar</button>
+          </div>
+          <div class="produtos">
+            <div class="conteudo-botao">
+              <div>
+                <a href="">
+                  <img
+                    src="./img/monitor.webp"
+                    alt=""
+                    width="150"
+                    height="150"
+                  />
+                </a>
+              </div>
+              <button class="botao-produtos pr5">
+                <span class="botao-color bt6">
+                  FRETE GRÁTIS Grande SP e RJ <br />
+                  BH e Curitiba
+                </span>
+              </button>
+            </div>
+            <div class="conteudo-central">
+              <p class="produto-info mon">
+                <a href="">
+                  Monitor LED T350 Samsung, Tela de 27, Tempo de resposta
+                  5ms,Taxa de atualização ...
+                </a>
+              </p>
+              <span class="preco-antigo"><a href=""></a></span>
+              <p class="preco-atual">
+                R$ 1.610,10 <span class="pr-atual">à vista</span>
+              </p>
+              <span class="produto-prazo">10x de R$ 165,99</span>
+              <p class="produto-total">Total a prazo R$ 1659,90</p>
+            </div>
+            <button class="produtos-compras">Comprar</button>
+          </div>
+          <div class="produtos">
+            <div class="conteudo-botao">
+              <div>
+                <a href="">
+                  <img
+                    src="./img/nobreak.webp"
+                    alt=""
+                    width="150"
+                    height="150"
+                  />
+                </a>
+              </div>
+              <button class="botao-produtos pr5">
+                <span class="botao-color bt6">
+                  FRETE GRÁTIS </span
+                >Grande SP e RJ <br />
+                BH e Curitiba
+              </button>
+            </div>
+            <div class="conteudo-central">
+              <p class="produto-info hd">
+                <a href="">
+                  Nobreak Station II 600va 4 tomadas 115v 27396, SMS - CX 1 UN
+                </a>
+              </p>
+              <span class="preco-antigo"><a href="">De R$ 538,00</a></span>
+              <p class="preco-atual">
+                486,00<span class="pr-atual">à vista</span>
+              </p>
+              <span class="produto-prazo">3x de R$ 162,00</span>
+              <p class="produto-total">Total a prazo R$ 486,00</p>
+            </div>
+            <button class="produtos-compras">Comprar</button>
+          </div>
+          <div class="produtos">
+            <div class="conteudo-botao">
+              <div>
+                <a href="">
+                  <img
+                    src="./img/kit sem fio.webp"
+                    alt=""
+                    width="150"
+                    height="150"
+                  />
+                </a>
+              </div>
+              <button class="botao-produtos bt4">
+                <span class="botao-color bt6">
+                  FRETE GRÁTIS </span
+                >Grande SP e RJ <br />
+                BH e Curitiba
+              </button>
+            </div>
+            <div class="conteudo-central">
+              <p class="produto-info">
+                <a href="">
+                  Kit sem fio (teclado/mouse) DKT 850 MFT PY9-00021 Microsoft CX
+                  1 UN
+                </a>
+              </p>
+              <span class="preco-antigo"><a href="">De R$ 289,90</a></span>
+              <p class="preco-atual">
+                R$ 239,90<span class="pr-atual">à vista</span>
+              </p>
+              <span class="produto-prazo">3x de R$ 79,97</span>
+              <p class="produto-total">Total a prazo R$ 239,91</p>
+            </div>
+            <button class="produtos-compras">Comprar</button>
+          </div>
+          <div class="produtos">
+            <div class="conteudo-botao">
+              <div>
+                <a href="">
+                  <img
+                    src="./img/hd externo.webp"
+                    alt=""
+                    width="150"
+                    height="150"
+                  />
+                </a>
+              </div>
+              <button class="botao-produtos pr5">
+                <span class="botao-color bt6">
+                  <span class="frete">frete grátis</span>Grande SP e RJ <br />
+                  BH e Curitiba
+                </span>
+              </button>
+            </div>
+            <div class="conteudo-central">
+              <p class="produto-info hd">
+                <a href="">
+                  HD Portátil Externo 4TB USB 3.0 Elements Western Digital CX 1
+                  UN
+                </a>
+              </p>
+              <span class="preco-antigo bt4"
+                ><a href="">De R$ 3.793,90</a></span
+              >
+              <p class="preco-atual">
+                R$ 869,00<span class="pr-atual">à vista</span>
+              </p>
+              <span class="produto-prazo">3x de R$ 289,67</span>
+              <p class="produto-total">Total a prazo R$ 869,01</p>
+            </div>
+            <button class="produtos-compras">Comprar</button>
+          </div>
+          <div class="produtos">
+            <div class="conteudo-botao">
+              <div>
+                <a href="">
+                  <img
+                    src="./img/webcam.webp"
+                    alt=""
+                    width="150"
+                    height="150"
+                  />
+                </a>
+              </div>
+              <button class="botao-produtos pr6">
+                <span class="botao-color6">
+                  <span class="frete">frete gratis</span> Grande SP e RJ
+                </span>
+              </button>
+            </div>
+            <div class="conteudo-central">
+              <p class="produto-info web">
+                <a href="">
+                  Webcam HD C505 - Logitech CX 1 UN
+                </a>
+              </p>
+              <span class="preco-antigo bt4"
+                ><a href="">De R$ 3.793,90</a></span
+              >
+              <p class="preco-atual">
+                R$ 334,90<span class="pr-atual">à vista</span>
+              </p>
+              <span class="produto-prazo">3x de R$ 111.63</span>
+              <p class="produto-total">Total a prazo R$ 334.89</p>
+            </div>
+            <button class="produtos-compras">
+              Comprar
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
