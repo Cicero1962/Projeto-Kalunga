@@ -3,7 +3,6 @@
   height: 100%;
   max-width: 100vw;
   max-height: 100vh;
-  
 }
 .menu {
   width: 100%;
@@ -11,7 +10,7 @@
   flex-wrap: wrap;
   padding-top: 12px;
   padding-bottom: 12px;
-  background-color: #000000; 
+  background-color: #000000;
   justify-content: space-between;
 }
 .form-busca {
@@ -66,12 +65,11 @@
   align-items: flex-start;
   justify-content: flex-end;
 }
-.menu-conta{
+.menu-conta {
   position: relative;
   margin: 0 auto;
-  
 }
-.container-conta{
+.container-conta {
   opacity: 0;
   background-color: var(--cor-0);
   width: 380px;
@@ -81,49 +79,46 @@
   left: 50%;
   transform: translateX(-50%);
   top: calc(100%);
-  
 }
 
-.minha-conta{
+.minha-conta {
   width: 80%;
   height: 40px;
-  font-size: .875rem;
+  font-size: 0.875rem;
   font-weight: bold;
-   border-radius: 4px;
-   border: none;
-   background-color: #396CA9;
-   color: var(--cor-0);
-   margin: 20px 0px 10px 0px;
-   cursor: pointer;
+  border-radius: 4px;
+  border: none;
+  background-color: #396ca9;
+  color: var(--cor-0);
+  margin: 20px 0px 10px 0px;
+  cursor: pointer;
 }
 
-.menu-conta:hover .container-conta{
+.menu-conta:hover .container-conta {
   opacity: 1;
 }
 
-.itens-conta a{
-  font-size: .82rem;
+.itens-conta a {
+  font-size: 0.82rem;
   color: #373a3c;
 }
 
-.itens-conta a:hover{
+.itens-conta a:hover {
   text-decoration: underline;
 }
-.itens-conta li+li{
+.itens-conta li + li {
   margin-bottom: 2px;
 }
 
-.menu-conta h3{
+.menu-conta h3 {
   margin-top: 10px;
   margin-bottom: 16px;
   font-weight: 900;
 }
-.login-conta{
+.login-conta {
   text-align: center;
- 
-  
 }
-.menu-conta{
+.menu-conta {
   display: flex;
   justify-content: center;
   gap: 0 40px;
@@ -134,8 +129,6 @@
   position: relative;
   padding-right: 10px;
   height: 100%;
-  
-  
 }
 .carrinho a {
   display: flex;

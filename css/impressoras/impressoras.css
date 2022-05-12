@@ -6,9 +6,8 @@
   margin: 0 auto;
 }
 .img-impressora {
-    background: linear-gradient(to right, #50486C 50%, #E3DED1 50%);
+  background: linear-gradient(to right, #50486c 50%, #e3ded1 50%);
   margin: 0 auto;
   width: 97%;
   border-radius: 4px;
 }
-

@@ -1,42 +1,39 @@
-
-#galeria{
-    width: 100vw;
+#galeria {
+  width: 100vw;
 }
-#galeria-itens{
-    display: flex;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
+#galeria-itens {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
 }
-#galeria img{
-    margin: 0 auto;
-    
+#galeria img {
+  margin: 0 auto;
 }
-.galeria-01{
-    flex: none;
-    width: 100vw;
-    height: 300px;
-    object-fit: cover;
-    scroll-snap-align: start;
-
+.galeria-01 {
+  flex: none;
+  width: 100vw;
+  height: 300px;
+  object-fit: cover;
+  scroll-snap-align: start;
 }
-.gl1{
-    background-color: #000000;
+.gl1 {
+  background-color: #000000;
 }
-.gl2{
-    background-color: #003399;
+.gl2 {
+  background-color: #003399;
 }
-.gl3{
-    background-color: #0B4671;
+.gl3 {
+  background-color: #0b4671;
 }
-.gl4{
-    background-color: #CCD4D9;
+.gl4 {
+  background-color: #ccd4d9;
 }
-.gl5{
-    background-color: #E8E8E8;
+.gl5 {
+  background-color: #e8e8e8;
 }
-.gl6{
-    background-color: #00A2E2;
+.gl6 {
+  background-color: #00a2e2;
 }
-.gl7{
-    background: linear-gradient(to bottom,#db0a31 0%,#8d028d 100%);
+.gl7 {
+  background: linear-gradient(to bottom, #db0a31 0%, #8d028d 100%);
 }
