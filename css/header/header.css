@@ -18,7 +18,7 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  width: 700px;
+  width: 750px;
   height: 40px;
   margin-bottom: 10px;
   border: none;
@@ -66,24 +66,86 @@
   align-items: flex-start;
   justify-content: flex-end;
 }
+.menu-conta{
+  position: relative;
+  margin: 0 auto;
+  
+}
+.container-conta{
+  opacity: 0;
+  background-color: var(--cor-0);
+  width: 380px;
+  height: 370px;
+  position: absolute;
+  border-radius: 6px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: calc(100%);
+  
+}
+
+.minha-conta{
+  width: 80%;
+  height: 40px;
+  font-size: .875rem;
+  font-weight: bold;
+   border-radius: 4px;
+   border: none;
+   background-color: #396CA9;
+   color: var(--cor-0);
+   margin: 20px 0px 10px 0px;
+   cursor: pointer;
+}
+
+.menu-conta:hover .container-conta{
+  opacity: 1;
+}
+
+.itens-conta a{
+  font-size: .82rem;
+  color: #373a3c;
+}
+
+.itens-conta a:hover{
+  text-decoration: underline;
+}
+.itens-conta li+li{
+  margin-bottom: 2px;
+}
+
+.menu-conta h3{
+  margin-top: 10px;
+  margin-bottom: 16px;
+  font-weight: 900;
+}
+.login-conta{
+  text-align: center;
+ 
+  
+}
+.menu-conta{
+  display: flex;
+  justify-content: center;
+  gap: 0 40px;
+}
 
 .carrinho {
   display: flex;
   position: relative;
-  flex-direction: column;
   padding-right: 10px;
+  height: 100%;
+  
+  
 }
 .carrinho a {
-  line-height: .5;
   display: flex;
   flex-direction: column;
   color: #ffffff;
   font-size: 0.875rem;
   text-transform: uppercase;
   font-weight: bold;
-  text-align: center;
   align-items: center;
-  justify-content: center;
+  height: 100%;
 }
 .carrinho::before {
   display: inline-block;
@@ -93,7 +155,7 @@
   width: 1px;
   background-color: white;
   top: -20px;
-  left: -10px;
+  left: -20px;
 }
 .logo-kalunga {
   margin-top: 10px;

@@ -1,0 +1,54 @@
+.container-ofertas{
+    width: 100%;
+   padding-bottom: 20px;
+   padding-top: 20px;
+}
+
+.ofertas{
+   background-color: #F8F9FA;
+    display: flex;
+    width: 97%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    gap:  0px 30px;
+   padding: 20px 0px;
+   border-radius: 4px;
+}
+
+ .ofertas-dados >input{
+    margin-left: 10px;
+}
+.ofertas-dados >button{
+    margin-left: 10px;
+}
+
+.ofertas-dados >input{
+    border:2px solid var(--cor-2);
+    padding: 5px 26px;
+    border-radius: 4px;
+    font-size: 1rem;
+     outline: 0;
+}
+
+.ofertas-botao{
+    align-items: center;
+    display: inline-block;
+    background-color: #396BA7;
+    color: var(--cor-0);
+    border: none;
+    padding: 8px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+@media (max-width: 1280px) {
+  .ofertas-botao{
+    margin-top: 5px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .ofertas{
+    display: block;
+  }
+}

@@ -1,0 +1,14 @@
+.container.impressora {
+  width: 100%;
+}
+
+.img-impressora img {
+  margin: 0 auto;
+}
+.img-impressora {
+    background: linear-gradient(to right, #50486C 50%, #E3DED1 50%);
+  margin: 0 auto;
+  width: 97%;
+  border-radius: 4px;
+}
+
