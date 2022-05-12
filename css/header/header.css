@@ -70,7 +70,7 @@
   margin: 0 auto;
 }
 .container-conta {
-  opacity: 0;
+  display: none;
   background-color: var(--cor-0);
   width: 380px;
   height: 370px;
@@ -95,7 +95,7 @@
 }
 
 .menu-conta:hover .container-conta {
-  opacity: 1;
+  display: block;
 }
 
 .itens-conta a {
