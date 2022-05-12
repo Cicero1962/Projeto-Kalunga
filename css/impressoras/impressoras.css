@@ -1,13 +1,22 @@
-.container.impressora {
+.container.banners {
   width: 100%;
 }
 
-.img-impressora img {
+.img-banners img {
   margin: 0 auto;
 }
-.img-impressora {
+.img-banners {
   background: linear-gradient(to right, #50486c 50%, #e3ded1 50%);
   margin: 0 auto;
   width: 97%;
   border-radius: 4px;
+}
+.img-cafe{
+    background-color: #000000 ;
+    margin: 0 auto;
+    width: 97%;
+    border-radius: 4px;
+}
+.img-cafe img{
+    margin: 0 auto;
 }

@@ -6,6 +6,8 @@
   height: 460px;
   padding: 20px 10px;
   border: 1px solid transparent;
+  align-items: center;
+  justify-content: center;
 }
 
 .produtos-efeito {
@@ -20,13 +22,9 @@
   display: flex;
   width: 97%;
   margin: 0 auto;
-  align-self: center;
   justify-content: space-between;
 }
 
-.conteudo-botao {
-  padding-left: 40px;
-}
 
 .conteudo-central {
   text-align: justify;
@@ -126,7 +124,7 @@
 }
 
 .produtos-container h1 {
-  padding: 20px;
+  padding: 16px 0 0 16px;
   font-size: 1.38rem;
   font-weight: 900;
 }
