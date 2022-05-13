@@ -12,7 +12,7 @@
 .galeria-01 {
   flex: none;
   width: 100vw;
-  height: 300px;
+  height: auto;
   object-fit: cover;
   scroll-snap-align: start;
 }
@@ -36,4 +36,10 @@
 }
 .gl7 {
   background: linear-gradient(to bottom, #db0a31 0%, #8d028d 100%);
+}
+
+@media (max-width: 1000px){
+    .gl1,.gl2,.gl3,.gl4,.gl5,.gl6,.gl7{
+        background-color: n;
+    }
 }
