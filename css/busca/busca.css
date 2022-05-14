@@ -1,0 +1,39 @@
+.busca-container{
+    display: none;;
+    max-width: 780px;
+    width: 100%;
+    color: var(--cor-0);
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+.busca {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    background-color: #396BA7;
+    justify-content: center;
+    padding: 8px 0px;
+    border-radius: 4px;
+    border: none;
+    outline: 0;
+
+}
+.busca button {
+    background-color: #396BA7;
+    border: none;
+    outline: 0;
+    
+}
+
+.busca a{
+    font-size: 1rem;
+    color: var(--cor-0);
+    font-weight: 700;
+}
+
+@media (max-width: 760px){
+    .busca-container{
+        display: block;
+    }
+}

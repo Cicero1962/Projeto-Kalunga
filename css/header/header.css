@@ -53,7 +53,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
 }
 
 .form-oculto {
@@ -73,11 +72,11 @@
   padding: 6px 12px;
   border: none;
   border-radius: 4px 0px 0px 4px;
+  outline: 0;
 }
 
-
-
-.menu-img{
+.menu-img {
+  position: relative;
   display: flex;
   gap: 0px 20px;
 }
@@ -92,6 +91,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  
 }
 
 .menu-input a {
@@ -211,6 +211,62 @@
   align-items: center;
 }
 
+.menu-lateral {
+  display: none;
+  position: absolute;
+  width: 700px;
+  height: auto;
+  max-height: 200px;
+  
+}
+
+.menu-img:hover .menu-lateral {
+  display: block;
+}
+
+.menu-box label {
+  left: 20px;
+  top: calc(-20%);
+  position: absolute;
+  display: block;
+  padding: 10px;
+  background-color: black;
+  font-size: .80rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: white;
+  border-bottom: solid 2px #373a3c;
+}
+
+.menu-box input {
+  display: none;
+}
+
+.menu-box input:checked ~ ul {
+  height: auto;
+  max-height: 600px;
+  transform: all;
+}
+
+.menu-box ul {
+  width: 100%;
+  background-color:var(--cor-0);
+  overflow: hidden;
+  max-height: 0;
+  transition: all 0.4s linear;
+  overflow-y: scroll;
+}
+
+.menu-box li {
+  width: 100%;
+  padding: 15px 10px;
+  border-bottom: solid 1px darkgrey;
+}
+
+.menu-box li a{
+  color: #373a3c;
+  align-content: center;
+}
 
 @media (max-width: 1700px) {
   .form-busca {
@@ -243,11 +299,11 @@
   }
 }
 
-@media (max-width: 1150px){
-  .form-busca{
+@media (max-width: 1150px) {
+  .form-busca {
     width: 400px;
   }
-  .sub-menu{
+  .sub-menu {
     gap: 0px 25px;
   }
 }
@@ -259,7 +315,7 @@
   .container-oculto {
     display: block;
   }
-  .menu-oculto{
+  .menu-oculto {
     display: flex;
   }
 }

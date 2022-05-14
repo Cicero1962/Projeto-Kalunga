@@ -102,6 +102,7 @@
 .frete {
   text-transform: uppercase;
   padding: 6px 4px;
+  color: var(--cor-0);
 }
 .red {
   background-color: #cc2c47;
@@ -110,6 +111,7 @@
 
 .roxo {
   background-color: #3d128a;
+  color: var(--cor-0);
 }
 
 .black {
@@ -118,6 +120,7 @@
 .img2 {
   color: var(--cor-0);
 }
+
 
 .bt4 {
   opacity: 0;
