@@ -18,7 +18,7 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  width: 750px;
+  width: 750px; 
   height: 40px;
   margin-bottom: 10px;
   border: none;

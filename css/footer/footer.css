@@ -1,0 +1,125 @@
+.footer {
+  background-color: #f8f9fa;
+  border-top: 1px solid #d9dee2;
+  border-bottom: 1px solid #d9dee2;
+}
+.footer-container {
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+.footer-container a {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #687077;
+}
+
+.footer-container li:hover {
+  text-decoration: underline;
+}
+
+
+.institucional li {
+  margin-bottom: 3px;
+}
+
+.pagamentos {
+  display: block;
+  flex-wrap: wrap;
+  gap: 0px 50px;
+  padding-right: 60px;
+}
+
+.pagamentos li {
+  margin-bottom: 3px;
+}
+
+.institucional h3,
+.pagamentos h3, .redes h3, .duvida h3 {
+  display: block;
+  color: #3c72b4;
+  margin-bottom: 8px;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.redes ul li a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.bold {
+  color: black;
+  font-weight: bold;
+}
+.bold a {
+  display: block;
+}
+
+.rodape-container {
+  display: block;
+  text-align: center;
+  border-top: 1px solid #d9dee2;
+  border-bottom: 1px solid #d9dee2;
+  margin-bottom: 10px;
+}
+.rodape-container h2 {
+  margin-top: 16px;
+  margin-bottom: 5px;
+  color: #3c72b4;
+  font-size: 1rem;
+}
+
+.certificado {
+  margin-bottom: 16px;
+}
+
+.certificado a {
+  color: #687077;
+}
+
+.certificado a:hover {
+  text-decoration: underline;
+}
+
+.rodape {
+  margin-top: 16px;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+
+.rodape-bold {
+  text-align: center;
+  font-weight: 900;
+  font-size: 0.75rem;
+  margin-bottom: 16px;
+}
+
+@media (max-width:1200 ) {
+  .footer-container{
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 auto;
+      justify-content: center;
+      gap: 0px 0px;
+  }
+  
+
+  
+}
+
+@media (max-width:950 ){
+    .pagamentos{
+        display: block;
+        padding-right: 20px;
+    }
+}

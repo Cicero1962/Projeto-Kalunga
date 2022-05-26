@@ -1,0 +1,49 @@
+.servico{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 25px;
+    padding-right: 30px;
+    gap: 0px 10px;
+    padding-bottom: 10px;
+}
+
+.servico img{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.serv-item{
+    
+    flex: 1;
+}
+
+.retire{
+    background-color: #FFF1D9;
+}
+
+.express{
+    background-color: #F2F2F2;
+}
+
+.app{
+    background-color: #35332F;
+}
+
+@media (max-width: 1000px){
+    .app{
+        display: none;
+    }
+}
+
+@media (max-width: 770px){
+    .servico{
+        display: block;
+    }
+    .serv-item{
+        margin-bottom: 10px;
+    }
+}
+
+
